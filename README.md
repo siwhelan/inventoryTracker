@@ -14,7 +14,7 @@ Run the program in your terminal, replacing the text file path with the location
 
 ## Screenshot
 
-![App Screenshot](https://www.dropbox.com/s/09rplagtmh951qa/screenshot.JPG)
+![App Screenshot](https://www.dropbox.com/s/09rplagtmh951qa/screenshot.jpg?dl=0)
 
 ## Feedback
 
