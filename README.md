@@ -14,7 +14,7 @@ Run the program in your terminal, replacing the text file path with the location
 
 ## Screenshot
 
-![App Screenshot](https://www.dropbox.com/s/09rplagtmh951qa/screenshot.jpg?dl=0)
+![App Screenshot](https://uc68793af7ff09e156d295e04d2f.previews.dropboxusercontent.com/p/thumb/ABxu0jlGE3hMPjCV2PxiaT7fvGZ6BkHKtUx-lwoJbl4qPRpLQsDnxg2aTKtQWPxCpT_Vy2iaGEWqk66YzTlL8Lt-3gRW3QfB45vdu-Lb7MAtvC3yMdfK-7llylM4z0KnU2a7B2bKb9uMdmuJXf9gXfNAIn0997j_EdMl2ES2B9r1tYr5PpOmFPcyZeZb8UgtztnjAXOB-C7VATspHRvJaJpM4mUxTXwHbA2wc_DSHKDsLQ6aIXYaK002FwwgFTy_5l2ZArzcpF4-URmxNGv-_epeJyBQ7YCTtkGJNX8d18f3ElfDAY5QBU9Y2wE_Oq54E1vNV0PBmB3gvzMV58Mi-b5_JHuPo0tpdtcCqu0hoqFiKDFSiq_9_NkRmpvylEcuvFD2P_9KYblPxzED4WWwFYDYmIOMP4V3WKyXMN574GzQ8g/p.jpeg)
 
 ## Feedback
 
