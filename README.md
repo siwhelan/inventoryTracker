@@ -18,5 +18,5 @@ If you have any feedback, please reach out to me at simon@swhelan.dev
 
 ## Authors
 
-https://github.com/siwhelan
+- [@siwhelan](https://github.com/siwhelan)
 
