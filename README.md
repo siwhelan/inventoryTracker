@@ -11,6 +11,11 @@ The main menu of the program allows a user to read and produce a table of all da
 ## Installation
 
 Run the program in your terminal, replacing the text file path with the location of your inventory file
+
+## Screenshots
+
+![App Screenshot](https://www.dropbox.com/s/09rplagtmh951qa/screenshot.JPG?dl=0)
+
 ## Feedback
 
 If you have any feedback, please reach out to me at simon@swhelan.dev
