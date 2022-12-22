@@ -2,9 +2,8 @@ from tabulate import tabulate
 
 
 class Shoes:
-
     def __init__(self, country, code, product, cost, quantity):
-        
+
         self.country = country
         self.code = code
         self.product = product
@@ -18,7 +17,9 @@ class Shoes:
         return self.quantity
 
     def __str__(self):
-        return f"{self.country}, {self.code}, {self.product}, {self.cost}, {self.quantity}"
+        return (
+            f"{self.country}, {self.code}, {self.product}, {self.cost}, {self.quantity}"
+        )
 
 
 # List to store shoes data
@@ -29,6 +30,7 @@ shoes_list = []
 
 # Function to open and read the file inventory.txt,
 # create a shoes object from the data and append it to the shoe list
+
 
 def read_shoes_data():
     with open("inventory.txt", "r") as f:
@@ -48,10 +50,12 @@ def read_shoes_data():
 
 
 # This function will allow a user to enter data about a shoe,
-# use this data to create a shoe object 
+# use this data to create a shoe object
 # and append this object inside the shoe list.
 
+
 def capture_shoes():
+
     country = input("Enter the country of origin: ")
     code = input("Enter the code: ")
     product = input("Enter the product name: ")
@@ -65,7 +69,9 @@ def capture_shoes():
 # Iterate over the shoes list and print the details of the shoes returned from the __str__ function.
 # Print the info using tabulate
 
+
 def view_all():
+
     data = [["Country", "Code", "Product", "Cost", "Quantity"]]
     for shoe in shoes_list:
         data.append([shoe.country, shoe.code, shoe.product, shoe.cost, shoe.quantity])
@@ -74,6 +80,7 @@ def view_all():
 
 # This function will find the shoe object with the lowest quantity
 # Ask the user how many they'd like to add and then update the inventory
+
 
 def re_stock():
 
@@ -86,17 +93,23 @@ def re_stock():
 
 # Function to update the inventory with any changes
 
+
 def update_inventory_file():
+
     with open("inventory.txt", "w") as f:
         f.write("country,code,product,cost,quantity\n")
         for shoe in shoes_list:
-            f.write(f"{shoe.country},{shoe.code},{shoe.product},{shoe.cost},{shoe.quantity}\n")
+            f.write(
+                f"{shoe.country},{shoe.code},{shoe.product},{shoe.cost},{shoe.quantity}\n"
+            )
 
 
 # Function to search for a shoe from the list using the shoe's code
 # and return this object so that it can be printed
 
+
 def search_shoe(code):
+
     for shoe in shoes_list:
         if shoe.code == code:
             return shoe
@@ -105,25 +118,31 @@ def search_shoe(code):
 
 # Function to calculate the total value for each item
 
+
 def value_per_item():
+
     total_value = 0
     for shoe in shoes_list:
         value = shoe.cost * shoe.quantity
         total_value += value
-        print(f'{shoe.product} - ' + str(total_value))
+        print(f"{shoe.product} - " + str(total_value))
 
 
 # Function to determine the product with the highest quantity
 # and print this shoe as being for sale
 
+
 def highest_qty():
+
     highest_qty_shoe = max(shoes_list, key=lambda x: x.quantity)
     print(f"{highest_qty_shoe} is now on sale!!")
 
 
 # ===== Main Menu ===== #
 
+
 def main():
+    
     read_shoes_data()
     while True:
         print("\nMenu:")
