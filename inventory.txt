@@ -1,0 +1,22 @@
+country,code,product,cost,quantity
+South Africa,SKU44386,Air Max 90,2300.0,20
+China,SKU90000,Jordan 1,3200.0,50
+Vietnam,SKU63221,Blazer,1700.0,19
+United States,SKU29077,Cortez,970.0,60
+Russia,SKU89999,Air Force 1,2000.0,43
+Australia,SKU57443,Waffle Racer,2700.0,14
+Canada,SKU68677,Air Max 97,3600.0,13
+Egypt,SKU19888,Dunk SB,1500.0,26
+Britain,SKU76000,Kobe 4,3400.0,32
+France,SKU84500,Pegasus,2490.0,28
+Zimbabwe,SKU20207,Air Presto,2999.0,27
+Morocco,SKU77744,Challenge Court,1450.0,11
+Israel,SKU29888,Air Zoom Generation,2680.0,26
+Uganda,SKU33000,Flyknit Racer,4900.0,9
+Pakistan,SKU77999,Air Yeezy 2,4389.0,67
+Brazil,SKU44600,Air Jordan 11,3870.0,24
+Germany,SKU36736,Gazelle,70.0,25
+Brazil,SKU88997,Predator,70.0,25
+Italy,SKU99687,Puma,80.0,25
+France,SKU8890,Tiger,88.0,17
+Italy,SKU112233,Italia,100.0,20
