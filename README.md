@@ -1,5 +1,5 @@
 
-# Inventory Tracker
+# Inventory Tracker 👟👠👞👡
 
 Welcome to the Shoe Inventory Management System! This program allows you to easily manage your shoe inventory and make sure you always have the right amount of shoes in stock.
 
