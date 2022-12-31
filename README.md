@@ -1,9 +1,9 @@
 
-## Inventory Tracker
+# Inventory Tracker
 
 Welcome to the Shoe Inventory Management System! This program allows you to easily manage your shoe inventory and make sure you always have the right amount of shoes in stock.
 
-# Features
+## Features
 
     Enter data about a new shoe and add it to the inventory
     View all shoes in the inventory
@@ -14,16 +14,16 @@ Welcome to the Shoe Inventory Management System! This program allows you to easi
     Update the inventory file with any changes
     Anticipate and handle mistakes in user input to prevent the program from crashing
 
-# Requirements
+## Requirements
 
     Python 3
     tabulate module
 
-# Installation
+## Installation
 
 To use the Shoe Inventory Management System, simply download the script and run it with Python 3. You will also need to install the tabulate module, which can be done by running pip install tabulate.
 
-# Usage
+## Usage
 
 To use the program, follow these steps:
 
@@ -31,15 +31,15 @@ To use the program, follow these steps:
     Choose an action from the menu (e.g. add a new shoe, view all shoes, etc.)
     Follow the prompts to complete the chosen action
 
-# Screenshot
+## Screenshot
 
 ![App Screenshot](https://i.imgur.com/AN6Vsqo.jpg)
 
-# Feedback
+## Feedback
 
 If you have any feedback, please reach out to me at simon@swhelan.dev
 
-# Authors
+## Authors
 
 - [@siwhelan](https://github.com/siwhelan)
 
