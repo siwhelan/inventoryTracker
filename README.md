@@ -1,26 +1,45 @@
 
-# finalCapstone
+## Inventory Tracker
 
-Let us assume that you work for a shoe warehouse. As store manager you are responsible for managing the warehouse, and more importantly, performing stock
-taking. To optimise your delivery time and for improved organisation, you have decided to use your Python knowledge to get an overview of what each stock-taking session entailed.
+Welcome to the Shoe Inventory Management System! This program allows you to easily manage your shoe inventory and make sure you always have the right amount of shoes in stock.
 
-This is a Python program that reads from an 'inventory' text file containing the current stock levels of the store and all relevant details of each item - including country of origin, product code and value.
+# Features
 
-The main menu of the program allows a user to read and produce a table of all data, input the deatils of a new item, re-stock the item with the lowest number on hand, search an item by product code and view details thereon, calculate the total value of each stock item and set the item with the highest stock level as being on sale.
+    Enter data about a new shoe and add it to the inventory
+    View all shoes in the inventory
+    Restock a shoe with the lowest quantity
+    Search for a shoe by its code
+    Calculate the total value for each item in the inventory
+    Determine which shoe has the highest quantity and print it as being for sale
+    Update the inventory file with any changes
+    Anticipate and handle mistakes in user input to prevent the program from crashing
 
-## Installation
+# Requirements
 
-Run the program in your terminal, replacing the text file path with the location of your inventory file
+    Python 3
+    tabulate module
 
-## Screenshot
+# Installation
+
+To use the Shoe Inventory Management System, simply download the script and run it with Python 3. You will also need to install the tabulate module, which can be done by running pip install tabulate.
+
+# Usage
+
+To use the program, follow these steps:
+
+    Run the script
+    Choose an action from the menu (e.g. add a new shoe, view all shoes, etc.)
+    Follow the prompts to complete the chosen action
+
+# Screenshot
 
 ![App Screenshot](https://i.imgur.com/AN6Vsqo.jpg)
 
-## Feedback
+# Feedback
 
 If you have any feedback, please reach out to me at simon@swhelan.dev
 
-## Authors
+# Authors
 
 - [@siwhelan](https://github.com/siwhelan)
 
