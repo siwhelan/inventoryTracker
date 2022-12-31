@@ -21,7 +21,9 @@ Welcome to the Shoe Inventory Management System! This program allows you to easi
 
 ## Installation
 
-To use the Shoe Inventory Management System, simply download the script and run it with Python 3. You will also need to install the tabulate module, which can be done by running pip install tabulate.
+To use the Shoe Inventory Management System, simply download the script and run it with Python 3. You will also need to install the tabulate module, which can be done by running:
+
+    pip install tabulate
 
 ## Usage
 
